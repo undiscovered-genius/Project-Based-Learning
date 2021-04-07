@@ -1,7 +1,8 @@
 # Project-Based-Learning
 
 # Assignment 1:
-Q) Implement a menu-driven Java program (like fib or factorial) t o implement these input methods in java (command line args, Scanner, BufferedReader, DataInputStream, Console )
+1) Implement a menu-driven Java program (like fib or factorial) t o implement these input methods in java (command line args, Scanner, BufferedReader, DataInputStream, Console )
+2) Implement a simple menu driven calculator in java to implement add, sub, mul, div, sqrt, power, mean, variance. Implement a separate Calculator class to include all related function inside that class. (for mean calculation : program reads numbers from the keyboard, summing them in the process until the user enters the string “end”. It then stops input & displays the avg. of numbers) Find the GCD of two integers. By definition, GCD(a, b) is the greatest factor that divides both a and b. Assume that a and b are positive integers, and a≥b, the Euclid algorithm is based on these two properties: GCD(a, 0) = a GCD(a, b) = GCD(b, a mod b), where (a mod b) denotes the remainder of a divides by b.
 
 
 # Assignment 2:

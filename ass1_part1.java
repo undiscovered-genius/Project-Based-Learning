@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.Console;
 import java.util.Scanner;
 
-public class ass1 {
+public class ass1_part1 {
 	static int factorial(int n) {
 		if(n<0) {
 			System.out.println(" Number can't be -ve .");
