@@ -63,3 +63,9 @@ There are 52 cards in a deck, each of which belongs to one of four suits and one
 •	createDeck() , printCard(), printDeck (), sameCard(), compareCard(), sortCard() , findCard() which searches through an array of Cards to see whether it contains a certain card 
 •	dealCards() function :  to print 5 random cards from the existing deck . (1 pt)
 •	Illustrate the use of Garbage Collection in java by including suitable code (1 pt)
+
+# Assignment 5:
+Part 1:
+Implement the generic Shapes class as an abstract class so that we can extend concrete classes like circle, triangle, rectangle class from it. The details of shape and other classes is given in diagram. Write a concrete subclass Rectangle, Circle and Square. In another class, write a main method to define a Rectangle and a Triangle 
+Part 2:
+Program to implement multilevel inheritance. Create class Account with cust_name and account_number as instance variables and write getdata and putData()  methods which will take customer name and account number and will display the same using putData method. Create another class savingAcc that extends class Account with min_balance and sav_bal as instance variables and getdata() and putData() method to take instance variables as well as call base class methods in respective getData and putData methods. Create another class accdetail with deposits and withdrawal as instance variables, getdata() and putData() method to take instance variables as well as call base class methods in respective getData and putData methods.Create separate class accountInfo which will create object of accdetail and its respective methods to get and display information.
