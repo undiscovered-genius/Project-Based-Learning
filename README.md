@@ -67,5 +67,13 @@ There are 52 cards in a deck, each of which belongs to one of four suits and one
 # Assignment 5:
 Part 1:
 Implement the generic Shapes class as an abstract class so that we can extend concrete classes like circle, triangle, rectangle class from it. The details of shape and other classes is given in diagram. Write a concrete subclass Rectangle, Circle and Square. In another class, write a main method to define a Rectangle and a Triangle 
+
 Part 2:
 Program to implement multilevel inheritance. Create class Account with cust_name and account_number as instance variables and write getdata and putData()  methods which will take customer name and account number and will display the same using putData method. Create another class savingAcc that extends class Account with min_balance and sav_bal as instance variables and getdata() and putData() method to take instance variables as well as call base class methods in respective getData and putData methods. Create another class accdetail with deposits and withdrawal as instance variables, getdata() and putData() method to take instance variables as well as call base class methods in respective getData and putData methods.Create separate class accountInfo which will create object of accdetail and its respective methods to get and display information.
+
+# Assignment 6:
+Part 1:
+Program to implement the following Multiple Inheritance. An implementation of Exam class that uses Student class using interface to calculate percentage of marks in 2 subjects.
+
+Part 2:
+An implementation of IntStack (integer stack) that uses fixed storage as well as "growable" using interface. Create a user defined package “pkg_Stack” where the interface is stored. The other two complete classes will need to import the package ‘pkg_Stack’ and then use it.
