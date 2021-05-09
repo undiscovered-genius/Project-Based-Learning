@@ -77,3 +77,37 @@ Program to implement the following Multiple Inheritance. An implementation of Ex
 
 Part 2:
 An implementation of IntStack (integer stack) that uses fixed storage as well as "growable" using interface. Create a user defined package “pkg_Stack” where the interface is stored. The other two complete classes will need to import the package ‘pkg_Stack’ and then use it.
+
+# Assignment 7:
+Part 1:
+Assignment description: A rational number is a number in the form of  where   and  are integers and . Rational numbers can be added, subtracted, multiplied, and divided. Write a Java application that will be able to add, subtract, multiply, divide, compare, convert to floating point, and find absolute value for rational numbers. 
+Your program should be written in Object Oriented Programming style. The program should accept two rational numbers from the user using any method and output results of operations to console. Your program should solve operations efficiently and be able to recover from bad inputs. Use exception handling mechanism so as not to crash the program.
+
+Part 2:
+Write a Java Program to find the factorial of ‘n’ integers (as command line arguments CLA). Write your own exception “MyExcep” to validate integer values to be in certain range.
+
+Sample call: java ExceptionDemo 8 – 6 14 abcd 5
+
+1.	Static main method invokes another method “factorial()”
+2.	CLA which are strings but interpreted as integer values.
+3.	The user-defined exception class MyExcep should have proper constructors / overridden toString() method to display exception message along with the wrong input number that had generated the exception.
+4.	NumberFormatException and Your Exception class MyExcep( n<0 and n>12 )
+
+
+# Assignment 8:
+Create a Java Program for MySQL database connectivity. Perform following operations 
+1.	Create a table Employee with fields empno (int),ename(string),department(string) ,job(string) and salary(float).
+2.	Add five employees to the Employee table at the time of table creation
+EMPNO:8369, Ename:Smith, job:Manager, department:IT,Sal:80000.00
+EMPNO:8654, Ename:Momin, job:Salesman, department:Sales ,Sal:12050.00
+EMPNO:8839, Ename: Amir, department: Sales, job: President ,Sal:150000.00
+EMPNO:8934, Ename:Mita, department:HR ,job:Clerk, Sal:23000.00
+EMPNO:8900, Ename:Jatin, department:HR job:Clerk, Sal:25050.00
+3.	Add new employee using Java program.
+4.	Display all employees.
+5.	Search a particular employee by using Name.
+6.	Update employee salary using empno.
+7.	Delete employee using empno.
+8.	Exit
+
+Empno will be PRIMARY KEY
